@@ -77,12 +77,12 @@ $ commitizen init cz-conventional-changelog --save --save-exact
 
 每个部分都会罗列相关的 commit ，并且有指向这些 commit 的链接。当然，生成的文档允许手动修改，所以发布前，你还可以添加其他内容。
 
-[`conventional-changelog`](https://github.com/ajoslin/conventional-changelog) 就是生成 Change log 的工具，运行下面的命令即可。
+[`conventional-changelog`](https://github.com/stevemao/conventional-changelog-cli) 就是生成 Change log 的工具，运行下面的命令即可。
 
 ```
-$ npm install -g conventional-changelog
+$ npm install -g conventional-changelog-cli
 $ cd my-project
-$ conventional-changelog -p angular -i CHANGELOG.md -w
+$ conventional-changelog -p angular -i CHANGELOG.md -s
 ```
 
 上面命令不会覆盖以前的 Change log，只会在`CHANGELOG.md`的头部加上自从上次发布以来的变动。
