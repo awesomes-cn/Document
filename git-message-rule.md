@@ -98,7 +98,7 @@ $ conventional-changelog -p angular -i CHANGELOG.md -s -r 0
 ```
 {
   "scripts": {
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r"
   }
 }
 ```
