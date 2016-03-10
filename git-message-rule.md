@@ -43,7 +43,7 @@
 ### Example:
 
 ```
-git commit -m "<feat>(view)增加登陆功能"
+git commit -m "feat(view): 增加登陆功能"
 ```
 
 
