@@ -90,7 +90,7 @@ $ conventional-changelog -p angular -i CHANGELOG.md -s
 如果你想生成所有发布的 Change log，要改为运行下面的命令。
 
 ```
-$ conventional-changelog -p angular -i CHANGELOG.md -w -r 0
+$ conventional-changelog -p angular -i CHANGELOG.md -s -r 0
 ```
 
 为了方便使用，可以将其写入`package.json` 的 `scripts` 字段。
